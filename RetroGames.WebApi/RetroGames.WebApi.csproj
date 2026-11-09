@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\RetroGames.Model\RetroGames.Model.csproj" />
+    <ProjectReference Include="..\RetroGames.Repository\RetroGames.Repository.csproj" />
+    <ProjectReference Include="..\RetroGames.Services\RetroGames.Services.csproj" />
+    <ProjectReference Include="..\RetroGames.WebApi.ApiModels\RetroGames.WebApi.ApiModels.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>
