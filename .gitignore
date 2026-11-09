@@ -1,0 +1,10 @@
+# Arquivos gerados pela compilação do .NET
+bin/
+obj/
+
+# Dependências e build do front-end
+node_modules/
+dist/
+
+# Configuração local com credenciais; .env.example permanece versionável
+.env
