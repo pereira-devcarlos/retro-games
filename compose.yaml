@@ -1,0 +1,16 @@
+name: retrogames
+
+services:
+  mysql:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:?Defina MYSQL_ROOT_PASSWORD no arquivo .env}
+      MYSQL_DATABASE: retrogames
+    ports:
+      - "127.0.0.1:3307:3306"
+    volumes:
+      - mysql_dados:/var/lib/mysql
+
+volumes:
+  mysql_dados:
+    name: retrogames_mysql_dados
